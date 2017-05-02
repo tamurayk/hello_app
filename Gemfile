@@ -14,14 +14,14 @@ group :development, :test do
   gem 'byebug',  '9.0.0', platform: :mri
 end
 
-group :production do
+group :development do
   gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
 end
 
-group :development do
+group :production do
   gem 'pg', '0.18.4'
 end
 
